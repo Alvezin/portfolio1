@@ -102,7 +102,7 @@ main .sobre h1 {
   text-indent: 10px;
   text-transform: uppercase;
   font-family: "Hind Vadodara", sans-serif;
-  border-bottom: 2px solid #F2D544;
+  border-bottom: 2px solid #F241A3;
 }
 main .sobre p {
   color: black;
@@ -113,6 +113,7 @@ main .sobre p {
   font-family: "Hind Vadodara", sans-serif;
 }
 main .tech {
+  background-image: url(/img/codes.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -126,12 +127,14 @@ main .tech h1 {
   text-indent: 10px;
   text-transform: uppercase;
   font-family: "Hind Vadodara", sans-serif;
-  border-bottom: 2px solid #F2D544;
+  border-bottom: 2px solid #F241A3;
 }
 main .tech h2 {
   margin-top: 10px;
 }
 main .tech .box {
+  background-color: #ffffff10;
+  border-radius: 10px;
   width: 80%;
   margin: auto;
   display: grid;
@@ -145,6 +148,9 @@ main .tech .box .box__tech {
   flex-direction: row;
   align-items: center;
 }
+main .tech .box .box__tech a:hover {
+  animation: cima 3s infinite;
+}
 main .tech .box .box__tech img {
   width: 100px;
   padding-right: 20px;
@@ -156,14 +162,12 @@ main .tech .box .html {
 main .tech .box .css {
   margin-top: 50px;
   grid-area: css;
-  border-left: 2px solid black;
 }
 main .tech .box .js {
   grid-area: js;
 }
 main .tech .box .sass {
   grid-area: sass;
-  border-left: 2px solid black;
 }
 main .projeto {
   font-family: "Hind Vadodara", sans-serif;
@@ -179,7 +183,7 @@ main .projeto h1 {
   text-indent: 10px;
   text-transform: uppercase;
   font-family: "Hind Vadodara", sans-serif;
-  border-bottom: 2px solid #F2D544;
+  border-bottom: 2px solid #F241A3;
 }
 main .projeto .caixa-icones {
   margin: 10px 0;
@@ -389,6 +393,11 @@ footer {
   }
   to {
     opacity: 1;
+  }
+}
+@keyframes cima {
+  50% {
+    transform: translateY(-10px);
   }
 }
 

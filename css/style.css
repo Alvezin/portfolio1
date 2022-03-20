@@ -1,19 +1,4 @@
-@font-face {
-  font-family: "Sansation-bold-italic";
-  font-style: italic;
-  font-weight: bold;
-  src: url(/fonts/sansation/Sansation_Bold_Italic.ttf);
-}
-@font-face {
-  font-family: "Sansation-light-italic";
-  font-style: italic;
-  font-weight: lighter;
-  src: url(/fonts/sansation/Sansation_Light_Italic.ttf);
-}
-@font-face {
-  font-family: "Sansation-regular";
-  src: url(/fonts/sansation/Sansation_Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500&display=swap");
 /* Color Theme Swatches in Hex */
 * {
   padding: 0;
@@ -21,6 +6,7 @@
 }
 
 body {
+  background-color: #020659;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -49,7 +35,7 @@ header .menu ul {
 header .menu ul li a {
   text-decoration: none;
   color: #F2D544;
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
   text-transform: uppercase;
 }
 header .menu ul li a:hover {
@@ -74,11 +60,11 @@ main .principal .name {
   padding-left: 50px;
 }
 main .principal .name h2 {
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
   color: #F2D544;
 }
 main .principal .name h1 {
-  font-family: "Sansation-light-italic";
+  font-family: "Hind Vadodara", sans-serif;
   font-size: 5rem;
   color: #F2D544;
 }
@@ -115,7 +101,7 @@ main .sobre h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
   border-bottom: 2px solid #F2D544;
 }
 main .sobre p {
@@ -124,7 +110,7 @@ main .sobre p {
   text-indent: 30px;
   word-spacing: 9px;
   line-height: 30px;
-  font-family: "Sansation-regular";
+  font-family: "Hind Vadodara", sans-serif;
 }
 main .tech {
   background-repeat: no-repeat;
@@ -132,14 +118,14 @@ main .tech {
   background-attachment: fixed;
   padding: 20px;
   color: #F2D544;
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
 }
 main .tech h1 {
   padding-bottom: 10px;
   color: #F2D544;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
   border-bottom: 2px solid #F2D544;
 }
 main .tech h2 {
@@ -180,7 +166,7 @@ main .tech .box .sass {
   border-left: 2px solid black;
 }
 main .projeto {
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
   box-sizing: border-box;
   padding: 10px;
   background-color: whitesmoke;
@@ -192,7 +178,7 @@ main .projeto h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "Sansation-bold-italic";
+  font-family: "Hind Vadodara", sans-serif;
   border-bottom: 2px solid #F2D544;
 }
 main .projeto .caixa-icones {
@@ -234,7 +220,7 @@ main .projeto .box-projeto .container img {
   margin: 20px;
   border-radius: 8px;
 }
-main .projeto .box-projeto input {
+main .projeto .box-projeto button {
   width: 40px;
   height: 40px;
   margin: 10px;
@@ -246,7 +232,7 @@ main .projeto .box-projeto input {
   background-position: center center;
   cursor: pointer;
 }
-main .projeto .box-projeto input:hover {
+main .projeto .box-projeto button:hover {
   background-color: #e6e600;
 }
 main .projeto .box-projeto #frente {
@@ -317,7 +303,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Sansation-light-italic";
+  font-family: "Hind Vadodara", sans-serif;
   font-size: 0.5rem;
 }
 

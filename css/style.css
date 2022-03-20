@@ -7,9 +7,6 @@
 
 body {
   background-color: #020659;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 header {
@@ -113,10 +110,6 @@ main .sobre p {
   font-family: "Hind Vadodara", sans-serif;
 }
 main .tech {
-  background-image: url(/img/codes.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   padding: 20px;
   color: #F2D544;
   font-family: "Hind Vadodara", sans-serif;
@@ -324,6 +317,12 @@ footer {
   main .tech h2 {
     font-size: 1.1rem;
   }
+  main .projeto .box-projeto .container {
+    width: 100%;
+  }
+  main .projeto .box-projeto .container img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 657px) {
   main .principal .social {
@@ -354,6 +353,30 @@ footer {
   }
   main .principal .name h1 {
     font-size: 3.5rem;
+  }
+  main .projeto .box-projeto .container {
+    width: 400px;
+  }
+  main .projeto .box-projeto .container img {
+    margin: 0;
+  }
+  main .projeto .box-projeto .container .box h2 {
+    font-size: 1rem;
+  }
+  main .projeto .box-projeto button {
+    margin: 0 3px;
+  }
+  main .tech .box {
+    width: 307px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 451px) {
+  main .principal .name {
+    padding-left: 30px;
+  }
+  main .principal .name h1 {
+    font-size: 3rem;
   }
 }
 @keyframes corBackground {

@@ -6,9 +6,6 @@
 }
 body{
     background-color: $azul1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 header{
     height: 80px;
@@ -117,10 +114,6 @@ main{
         }
     }
     & .tech{
-        background-image: url(/img/codes.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
         padding: 20px;
         color: $amarelo;
         font-family: $fonte;
@@ -345,6 +338,16 @@ footer{
                 font-size: 1.1rem;
             }
         }
+        & .projeto{
+            & .box-projeto{
+                & .container{
+                    width: 100%;
+                    & img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
     
 }
@@ -383,6 +386,44 @@ footer{
                 padding-left: 8px;
                 & h1{
                     font-size: 3.5rem;
+                }
+            }
+        }
+        & .projeto{
+            & .box-projeto{
+                & .container{
+                    width: 400px;
+                    & img{
+                        margin: 0;
+                    }
+                    & .box{
+                        & h2{
+                            font-size: 1rem;
+                        }
+                    }
+                    
+                }
+                & button{
+                    margin: 0 3px;
+                }
+            }
+        }
+        & .tech{
+            & .box{
+                width: 307px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 451px) {
+    main{
+        & .principal{
+            & .name{
+                padding-left: 30px;
+                & h1{
+                    font-size: 3rem;
                 }
             }
         }
